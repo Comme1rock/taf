@@ -253,7 +253,7 @@ void BeastCheckPosition();
   void SitrineoCumul( Int_t nEvents=1000, Int_t lastPlaneOfFirstTracker=2);
   void SitrineoAnalysis( Int_t lastPlaneOfFirstTracker, Int_t &nPairs, trackpair_t* pairList);
   void SitrineoAnalysisFromHits( Int_t lastPlaneOfFirstTracker, Int_t &nPairs, trackpair_t* pairList);
-
+  void GetMomDistribution(Int_t) ; //RS 2019/04/02
 
  using TObject::Clear;
 
